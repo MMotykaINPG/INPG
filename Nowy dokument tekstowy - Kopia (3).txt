@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 int main()
 {
@@ -22,4 +23,30 @@ int main()
         printf("%d is not a prime number.",n);
     
     return 0;
+=======
+#include <stdio.h>
+int main()
+{
+    int n, i, flag = 0;
+
+    printf("Enter a positive integer: ");
+    scanf("%d",&n);
+
+    for(i=2; i<=n/2; ++i)
+    {
+        // condition for nonprime number
+        if(n%i==0)
+        {
+            flag=1;
+            break;
+        }
+    }
+
+    if (flag==0)
+        printf("%d is a prime number.",n);
+    else
+        printf("%d is not a prime number.",n);
+    
+    return 0;
+>>>>>>> 4dd0556538b2a07fb54a078db84350af6927bd32
 }
