@@ -22,7 +22,7 @@ void reverseSentence()
         reverseSentence();
         printf("%c",c);
     }
-=======
+=======++++++++++
 /* Example to reverse a sentence entered by user without using strings. */
 
 #include <stdio.h>
