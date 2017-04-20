@@ -27,4 +27,4 @@ int main()
         printf("%d, ", nextTerm);
     }
     return 0;
-}
+}}
