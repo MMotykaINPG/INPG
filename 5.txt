@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 void reverseSentence();
-
+printf("lalala");
 int main()
 {
     printf("Enter a sentence: ");
