@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 /* Example to reverse a sentence entered by user without using strings. */
-
+tgrfbcv
 #include <stdio.h>
 void reverseSentence();
 printf("lalala");
